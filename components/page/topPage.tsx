@@ -6,6 +6,12 @@ export default function TopPage() {
     <div>
       <div className={styles.head}>
         <ServiceLogo />
+        <ServiceLogo />
+        <ServiceLogo />
+        <ServiceLogo />
+        <ServiceLogo />
+        <ServiceLogo />
+        <ServiceLogo />
       </div>
       <div className=""></div>
       <div className="service-details"></div>
