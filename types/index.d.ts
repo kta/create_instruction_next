@@ -1,4 +1,4 @@
-declare module '*.png' {
-  const content: React.Wedding<React.SVGProps<SVGElement>>;
+declare module "*.svg" {
+  const content: React.FC<React.SVGProps<SVGElement>>;
   export default content;
 }

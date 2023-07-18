@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import styles from './Header.module.scss';
-import ServiceLogo from '/public/logo.png';
+import Link from "next/link";
+import styles from "./Header.module.scss";
+import ServiceLogo from "/public/logo.svg";
 
 export default function Header() {
   // @ts-ignore
@@ -16,4 +16,3 @@ export default function Header() {
     </header>
   );
 }
-

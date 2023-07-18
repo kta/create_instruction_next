@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function footer() {
   return (
@@ -7,5 +7,5 @@ export default function footer() {
         <Image src="/images/footer_logo.png" alt="logo" width={100} height={100} />
       </div>
     </div>
-  )
+  );
 }

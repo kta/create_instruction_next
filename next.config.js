@@ -4,10 +4,18 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: true,
 
-  images: {
-    disableStaticImages: true, // importした画像の型定義設定を無効にする
-    domains: [process.env.NEXT_IMAGE_DOMAIN],
+  webpack: (config) => {
+    config.optimization.innerGraph = false;
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: [
+        {
+          loader: "@svgr/webpack",
+        },
+      ],
+    });
+    return config;
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

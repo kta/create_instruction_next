@@ -1,20 +1,12 @@
-import Image from 'next/image'
+import Image from "next/image";
+import type { ReactElement } from "react";
 
-import Layout from '@/components/layout/wedding/Layout';
+import TopPage from "@/components/page/TopPage";
 
 export default function Home() {
   return (
     <main className="">
-      <div className="head">
-      </div>
-      <div className="">
-      </div>
-      <div className="service-details">
-      </div>
-      <div className="user-story">
-      </div>
-      <div className="foot">
-      </div>
+      <TopPage />
     </main>
-  )
+  );
 }
