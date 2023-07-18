@@ -20,8 +20,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "@/components/*": ["components/*"],
+      "@/pages/*": ["src/pages/*"],
+      "@/styles/*": ["styles/*"],
+      "@/constants/*": ["constants/*"],
+    },
+    "typeRoots": ["types", "node_modules/@types"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
