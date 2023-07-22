@@ -7,7 +7,6 @@ export default function topPage() {
       <div className={styles.head}>
         <ServiceLogo />
       </div>
-      <div className=""></div>
       <div className="service-details"></div>
       <div className="user-story"></div>
       <div className="foot"></div>

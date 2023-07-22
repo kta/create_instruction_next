@@ -1,3 +1,4 @@
+// @ts-ignore
 import Footer from "@/components/layout/wedding/Footer";
 
 export const metadata = {
