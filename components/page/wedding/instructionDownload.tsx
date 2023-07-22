@@ -1,6 +1,6 @@
-import styles from "./InstructionDownload.module.scss";
+import styles from "./instructionDownload.module.scss";
 
-export default function InstructionDownload() {
+export default function instructionDownload() {
   return (
     <div>
       <h1>InstructionDownload</h1>

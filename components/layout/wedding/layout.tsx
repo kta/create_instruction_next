@@ -1,12 +1,12 @@
 import Head from "next/head";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "./header";
+import Footer from "./footer";
 
 type ContextProps = {
   children: React.ReactNode;
 };
 
-export default function Layout({ children }: ContextProps) {
+export default function layout({ children }: ContextProps) {
   return (
     <>
       <Head>

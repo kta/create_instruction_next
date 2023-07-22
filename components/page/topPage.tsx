@@ -1,16 +1,10 @@
 import ServiceLogo from "/public/logo.svg";
-import styles from "./TopPage.module.scss";
+import styles from "./topPage.module.scss";
 
-export default function TopPage() {
+export default function topPage() {
   return (
     <div>
       <div className={styles.head}>
-        <ServiceLogo />
-        <ServiceLogo />
-        <ServiceLogo />
-        <ServiceLogo />
-        <ServiceLogo />
-        <ServiceLogo />
         <ServiceLogo />
       </div>
       <div className=""></div>

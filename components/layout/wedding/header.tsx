@@ -1,8 +1,8 @@
 import Link from "next/link";
-import styles from "./Header.module.scss";
+import styles from "./header.module.scss";
 import ServiceLogo from "/public/logo.svg";
 
-export default function Header() {
+export default function header() {
   // @ts-ignore
   return (
     <header className={styles.bar}>
